@@ -152,6 +152,13 @@
     - $ export STUFF
 
 ## The Command Path
+- PATH is a special environment variable, which contains the command path
+- Cammand path is a list of system directories that contains certain commands
+    - $ echo $PATH
+- To make the shell look for more programs in other places
+    - $ PATH=dir:$PATH
+    - or you can do
+        - $ PATH=$PATH:dir
 
 ## Special Characters
 
