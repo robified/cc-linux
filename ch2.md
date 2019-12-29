@@ -133,10 +133,23 @@
         - $ sort <name of file> -r
 
 ## Changing Your Password and Shell
+- to change your password
+    - $ passwd
+- to change your shell
+    - $ chsh
 
 ## Dot Files
+- to view Dot File, which are configuration files/directories
+    - $ ls -A
 
 ## Environment and Shell Variables
+- to store a variable in the shell
+    - $ STUFF=yas
+- to access the shell variable
+    - $ $STUFF
+- to convert a shell variable to an envirnment variable
+    - $ STUFF=yas
+    - $ export STUFF
 
 ## The Command Path
 
