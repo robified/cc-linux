@@ -89,16 +89,48 @@
 ## Intermediate Commands
 - grep
     - $ grep root /etc/passwd
-        - 
+        - to print lines from a specific file that contain the word 'root'
     - $ grep root /etc/*
-        - 
+        - to print lines from multiple files that contain the word 'root'
+    - -i
+        - case-insensitive matches
+    - -v
+        - inverts the search
+        - prints lines that DON'T match
+    - egrep aka grep -E
+    - grep can understand Regular Expressions
+        .* matches any # of characters
+        . matches one character
 - less
+    - used when a file is too long
+    - spacebar to advance
+    - b to go back
+    - q to exit
+    - to send output of a grep command to less
+        - $ grep ie /usr/share/dict/words | less
 - pwd
+    - to output the name of the current directory you're in
+    - use $ pwd -P to see TRUE path
 - diff
+    - to see the difference between two files
+    - $ diff <file #1> <file #2>
 - file
+    - to see what type of file you're working with
+    - file <file #1>
 - file and locate
+    - to find and locate a file 
+    - $ find <name of directory> -name <name of file> -print
 - head and tail
+    - to view portions of a file or data streams
+    - head shows the first 10 lines
+         - $ head <name of file>
+    - tail show the last 10 lines
+        - $ tail <name of file>
 - sort
+    - to sort the line of a file by alphanumeric order
+        - $ sort <name of file> -n 
+    - to sort in reverse order
+        - $ sort <name of file> -r
 
 ## Changing Your Password and Shell
 
